@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#222831"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="836dp"
+        android:gravity="center"
+        android:text="Tip Time"
+        android:textColor="#76ABAE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Rp 100.000"
+        android:textSize="30sp"
+        android:textColorHint="#EEEEEE"
+        app:layout_constraintTop_toBottomOf="@+id/item1"
+        tools:layout_editor_absoluteX="157dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="636dp"
+        android:gravity="center"
+        android:text="How was the service?"
+        android:textColor="#76ABAE"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item2"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <SeekBar
+        android:id="@+id/item4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max='5'
+        android:progress="3"
+        app:layout_constraintTop_toBottomOf="@id/item3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="25dp"/>
+
+    <TextView
+        android:id="@+id/item5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good (15%)"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item4" />
+
+    <Button
+        android:id="@+id/item6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        android:text="Calculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item5" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@color/white"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item6">
+
+        <TextView
+            android:id="@+id/item7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Total Amount : 115000"
+            android:textColor="#31363F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

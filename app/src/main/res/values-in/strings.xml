@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tip Timee</string>
+    <string name="string1">Biaya layanan</string>
+    <string name="hint1">Input biaya</string>
+    <string name="string2">Bagaimana dengan layanannya?</string>
+    <string name="string3">Tip pembulatan ke atas?</string>
+    <string name="string4">Jumlah tip</string>
+    <string name="choice1">Mengagumkan (20%)</string>
+    <string name="choice2">Bagus (18%)</string>
+    <string name="choice3">Oke (15%)</string>
+    <string name="button">HITUNG</string>
+    <string name="total">Total: _____________</string>
+</resources>

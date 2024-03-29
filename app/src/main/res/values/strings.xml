@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">TipTimee</string>
+    <string name="app_name">Tip Timee</string>
+    <string name="string1">Cost of Service</string>
+    <string name="hint1">Enter cost</string>
+    <string name="string2">How was the service?</string>
+    <string name="string3">Round up tip?</string>
+    <string name="string4">Tip Amount</string>
+    <string name="choice1">Amazing (20%)</string>
+    <string name="choice2">Good (18%)</string>
+    <string name="choice3">Okey (15%)</string>
+    <string name="button">CALCULATE</string>
+    <string name="total">Total: _____________</string>
 </resources>
